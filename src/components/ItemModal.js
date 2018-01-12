@@ -27,7 +27,6 @@ const ItemModal = props => {
                                 ''
                             )}
                     </p>
-
                     {props.content.image_url &&
                         <Image alt={props.content.name} src={props.content.image_url} size="medium" />
                     }

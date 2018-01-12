@@ -15,7 +15,6 @@ const Map = withScriptjs(
       {props.locations.map((location, index) => {
         return (
           <Marker
-            options={{backgroundColor:'blue'}}
             animation={location.animation}
             onClick={()=> props.onItemClick(location.value)}
             key={index}
