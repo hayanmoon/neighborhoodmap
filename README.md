@@ -8,7 +8,7 @@ Run Application: `yarn start`
 Build Application for production: `yarn build`
 
 ## Service Worker
-Service Worker will only work it the application is a production build. To perform a production build and run the application do the ff:
+Service Worker will only work if the application is a production build. To perform a production build and run the application do the ff:
   * `yarn build`
   * `yarn global add serve`
   * `serve -s build`
